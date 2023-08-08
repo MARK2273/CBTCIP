@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      .header {
+        background-color: #6c5ce7;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 60px; /* Adjusted margin to create space for the footer */
+      }
+      .content-section {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      }
+      .circle {
+        width: 200px;
+        height: 200px;
+        background-color: #a29bfe;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto 30px;
+        animation: animateCircle 2s infinite;
+      }
+      @keyframes animateCircle {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .cbt-btn {
+        display: inline-block;
+        background-color: #6c5ce7;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      .cbt-btn:hover {
+        background-color: #4a40b8;
+      }
+      .footer {
+        background-color: #6c5ce7;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Welcome to Landing Page</h1>
+    </div>
+    <div class="container">
+      <div class="content-section">
+        <h2>I am Ayush</h2>
+        <div class="circle"></div>
+        <p>
+          This is a unique representation of creativity and imagination,
+          showcasing the beauty of web design. It pulsates gently, capturing the
+          viewer's attention and leaving a lasting impression.
+        </p>
+      </div>
+      <div class="content-section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Competitive coding</li>
+          <li>Problem solving</li>
+          <li>Mathematical aptitude</li>
+          <li>Accuracy and attention to detail</li>
+        </ul>
+      </div>
+      <div class="content-section">
+        <h2>Get Started Now!</h2>
+        <p>Click the button below to get started!</p>
+        <a href="#" class="cbt-btn">Get Started</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Thank you for visiting!</p>
+    </div>
+  </body>
+</html>
